@@ -37,8 +37,9 @@ public class Bank {
   }
   
   public void getInfo() {
-    System.out.println("\n\nCustomer Name: " + name + " (" + age + ")");
+    System.out.println("Customer Name: " + name + " (" + age + ")");
     System.out.println("Balance: " + "$" + checking);
     System.out.println("TFSA: " + "$" + balance + " ($" + gain + ")");
+    System.out.println("/n");
   }
 }
